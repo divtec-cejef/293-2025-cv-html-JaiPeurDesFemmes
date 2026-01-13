@@ -22,9 +22,16 @@ align-items: center;
 }
 
 h1 {   
-color: mediumpurple;
-text-decoration: underline; 
+color: #ffffff;
+text-decoration: none; 
 text-align: center;
+}
+
+h1:hover{
+  text-shadow: 0px -5px #ec2225,
+               0px 5px #00c2cb, 
+               -5px 0px #ec2225, 
+               5px 0px #00c2cb;
 }
 
 h2 {
