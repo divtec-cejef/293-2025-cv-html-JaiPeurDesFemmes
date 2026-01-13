@@ -28,6 +28,25 @@ color: mediumpurple;
 font-size: 150px;
 }
 
+h1::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0.04em;
+  left: 0.04em;
+  color: #313f97;
+  z-index: -1;
+}
+h1::after{
+  content: attr(data-text);
+  position: absolute;
+  color: transparent;
+  top: -0.04em;
+  left: -0.04em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke: 1px #ec2225;
+}
+
 h2 {
     color: aquamarine;
 }
