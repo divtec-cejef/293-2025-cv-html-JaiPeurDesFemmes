@@ -46,6 +46,11 @@ width: auto;
 p {
 font-family: cursive;
 }
+
+ul li {
+font-family: cursive;
+}
+
 a {
 color: #EC0B43;
 text-decoration: none;   
