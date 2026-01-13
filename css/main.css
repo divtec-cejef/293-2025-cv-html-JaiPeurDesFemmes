@@ -69,6 +69,10 @@ a:hover {
 color: #ec0b435c
 }
 
+.img-footer {
+display: flex;
+justify-content: flex-end;
+}
 footer {
 margin: 15px;
 }
