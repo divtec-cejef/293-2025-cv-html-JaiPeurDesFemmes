@@ -21,10 +21,12 @@ justify-content: center;
 align-items: center;    
 }
 
-h1 {    
+h1 {
+position: relative; 
+font-family: poppins;    
 color: mediumpurple;
+font-size: 150px;
 }
-
 
 h2 {
     color: aquamarine;
@@ -64,4 +66,3 @@ color: #ec0b435c
 footer {
 margin: 15px;
 }
-
