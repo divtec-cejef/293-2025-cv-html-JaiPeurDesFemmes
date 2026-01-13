@@ -9,7 +9,7 @@ body {
     font-size: 1.2rem;
     line-height: 1.4;
     color: #d5c8cc;
-    background-color: #1d0b11;
+    background-color: #1d0b11f5;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -22,7 +22,10 @@ align-items: center;
 }
 
 h1 {
+position: relative; 
+font-family: poppins;    
 color: mediumpurple;
+font-size: 150px;
 }
 
 h2 {
