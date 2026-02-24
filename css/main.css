@@ -34,12 +34,14 @@ header {
 }
 
 header .logo img {
+    position: relative;
     float: left;
     border: 2px dashed #EC0B43;
     padding: 1px;
     margin-right: 40px;
     box-shadow: 4px 4px 10px #EC0B43;
 }
+
 
 main {
     justify-content: center;
